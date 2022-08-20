@@ -24,8 +24,14 @@ h1 {
   font-size: 94px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -55,4 +61,45 @@ p {
   font-size: 18px;
   line-height: 28px;
   padding: 9px 25px;
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--main-color);
+  border-radius: 6px;
+  color: var(--main-color);
+  font-size: 18px;
+  line-height: 28px;
+  padding: 9px 25px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+.img-fluid {
+  padding: 150px 10px 50px 10px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+}
+
+@media (max-width: 451px) {
+  h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
 }
