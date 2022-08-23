@@ -54,6 +54,23 @@ p {
   font-size: 24px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 62px;
+  line-height: 72px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.about-section-content {
+  margin: 25px;
+}
+
 .btn-branding {
   background: var(--main-color);
   border-radius: 6px;
@@ -75,7 +92,8 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-.img-fluid {
+
+.img-padding {
   padding: 150px 10px 50px 10px;
 }
 
@@ -95,11 +113,21 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
 }
 
 @media (max-width: 451px) {
   h1 {
     font-size: 40px;
     line-height: 1.2;
+  }
+}
+
+@media (max-width: 570px) {
+  .img-fluid {
+    width: 380px;
   }
 }
