@@ -25,6 +25,10 @@ h1 {
 }
 
 h2 {
+  font-size: 60px;
+}
+
+h4 {
   font-size: 64px;
 }
 
@@ -37,7 +41,6 @@ p {
 i {
   color: var(--main-color);
 }
-
 
 nav ul {
   padding: 0;
@@ -57,7 +60,8 @@ nav a {
   transition: all 150ms ease-in-out;
 }
 
-nav a:hover, nav li.active a {
+nav a:hover,
+nav li.active a {
   color: var(--main-color);
 }
 
@@ -65,9 +69,51 @@ nav {
   padding: 20px 0;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 80px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+footer .email-link:hover {
+  color: var(--main-color);
+  font-size: 24px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  font-size: 25px;
+  background-color: #eee9f9;
+  padding: 8px 16px;
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background-color: var(--main-color);
+}
+
+footer .social-links i:hover {
+  color: #eee9f9;
+}
+
 .img-center {
   display: block;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 
 .hero {
@@ -125,6 +171,10 @@ nav {
   padding: 9px 25px;
 }
 
+.btn-work {
+  margin: 50px;
+}
+
 .btn-branding-outline {
   border: 1px solid var(--main-color);
   border-radius: 6px;
@@ -147,8 +197,13 @@ nav {
     font-size: 50px;
     line-height: 2;
   }
+
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 32px;
   }
 
   .project-description {
@@ -179,7 +234,6 @@ nav {
     font-size: 38px;
     line-height: 1.1;
   }
-
 }
 
 @media (max-width: 570px) {
@@ -194,5 +248,3 @@ nav {
     font-size: 14px;
   }
 }
-
-
